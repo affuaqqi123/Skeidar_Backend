@@ -1,0 +1,3813 @@
+2024-03-03 19:03:21.791 [DBG] (SkiedarRequestService//) Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-03-03 19:03:22.139 [DBG] (SkiedarRequestService//) Hosting starting
+2024-03-03 19:03:22.169 [INF] (SkiedarRequestService//) User profile is available. Using '"C:\Users\AqeMoham\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-03 19:03:22.181 [DBG] (SkiedarRequestService//) Reading data from file '"C:\Users\AqeMoham\AppData\Local\ASP.NET\DataProtection-Keys\key-8c38baa2-345b-474e-a9ea-3f4ea058d8fd.xml"'.
+2024-03-03 19:03:22.203 [DBG] (SkiedarRequestService//) Found key {8c38baa2-345b-474e-a9ea-3f4ea058d8fd}.
+2024-03-03 19:03:22.223 [DBG] (SkiedarRequestService//) Considering key {8c38baa2-345b-474e-a9ea-3f4ea058d8fd} with expiration date 2024-05-01 13:23:48Z as default key.
+2024-03-03 19:03:22.231 [DBG] (SkiedarRequestService//) Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2024-03-03 19:03:22.238 [DBG] (SkiedarRequestService//) Decrypting secret element using Windows DPAPI.
+2024-03-03 19:03:22.244 [DBG] (SkiedarRequestService//) Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2024-03-03 19:03:22.254 [DBG] (SkiedarRequestService//) Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2024-03-03 19:03:22.259 [DBG] (SkiedarRequestService//) Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2024-03-03 19:03:22.265 [DBG] (SkiedarRequestService//) Using key {8c38baa2-345b-474e-a9ea-3f4ea058d8fd} as the default key.
+2024-03-03 19:03:22.270 [DBG] (SkiedarRequestService//) Key ring with default key {8c38baa2-345b-474e-a9ea-3f4ea058d8fd} was loaded during application startup.
+2024-03-03 19:03:23.235 [INF] (SkiedarRequestService//) Now listening on: "https://localhost:7295"
+2024-03-03 19:03:23.243 [DBG] (SkiedarRequestService//) Loaded hosting startup assembly "WebApi"
+2024-03-03 19:03:23.247 [DBG] (SkiedarRequestService//) Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2024-03-03 19:03:23.249 [DBG] (SkiedarRequestService//) Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2024-03-03 19:03:23.252 [INF] (SkiedarRequestService//) Application started. Press Ctrl+C to shut down.
+2024-03-03 19:03:23.255 [INF] (SkiedarRequestService//) Hosting environment: "Development"
+2024-03-03 19:03:23.267 [INF] (SkiedarRequestService//) Content root path: "C:\Users\AqeMoham\Desktop\CSS\WebApi\WebApi"
+2024-03-03 19:03:23.271 [DBG] (SkiedarRequestService//) Hosting started
+2024-03-03 19:03:23.501 [DBG] (SkiedarRequestService//) Connection id ""0HN1RIC96MB40"" accepted.
+2024-03-03 19:03:23.501 [DBG] (SkiedarRequestService//) Connection id ""0HN1RIC96MB3V"" accepted.
+2024-03-03 19:03:23.506 [DBG] (SkiedarRequestService//) Connection id ""0HN1RIC96MB40"" started.
+2024-03-03 19:03:23.506 [DBG] (SkiedarRequestService//) Connection id ""0HN1RIC96MB3V"" started.
+2024-03-03 19:03:31.657 [DBG] (SkiedarRequestService//) Connection id ""0HN1RIC96MB41"" accepted.
+2024-03-03 19:03:31.677 [DBG] (SkiedarRequestService//) Connection id ""0HN1RIC96MB41"" started.
+2024-03-03 19:03:31.749 [DBG] (SkiedarRequestService//) Connection "0HN1RIC96MB41" established using the following protocol: Tls13
+2024-03-03 19:03:32.332 [INF] (SkiedarRequestService//) Request starting HTTP/2 GET https://localhost:7295/swagger/index.html - -
+2024-03-03 19:03:32.663 [DBG] (SkiedarRequestService//) Wildcard detected, all requests with hosts will be allowed.
+2024-03-03 19:03:32.793 [DBG] (SkiedarRequestService//) No candidates found for the request path '"/swagger/index.html"'
+2024-03-03 19:03:32.892 [DBG] (SkiedarRequestService//) Request did not match any endpoints
+2024-03-03 19:03:33.087 [DBG] (SkiedarRequestService//) The request path "" does not match the path filter
+2024-03-03 19:03:33.373 [DBG] (SkiedarRequestService//) Response markup is scheduled to include browser refresh script injection.
+2024-03-03 19:03:33.431 [INF] (SkiedarRequestService//) === Request Info ===
+method = GET
+path = /swagger/index.html
+-- headers
+header = Accept    value = text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+header = Host    value = localhost:7295
+header = User-Agent    value = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+header = Accept-Encoding    value = gzip, deflate, br
+header = Accept-Language    value = en-GB,en-US;q=0.9,en;q=0.8
+header = Upgrade-Insecure-Requests    value = 1
+header = sec-fetch-site    value = none
+header = sec-fetch-mode    value = navigate
+header = sec-fetch-user    value = ?1
+header = sec-fetch-dest    value = document
+header = sec-ch-ua    value = "Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"
+header = sec-ch-ua-mobile    value = ?0
+header = sec-ch-ua-platform    value = "Windows"
+-- body
+body = 
+ 
+ === Response Info ===
+-- headers
+header = Content-Type    value = text/html;charset=utf-8
+header = Request-Context    value = appId=
+-- statusCode
+statusCode = 200
+-- body
+body = <!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Swagger UI</title>
+    <link rel="stylesheet" type="text/css" href="./swagger-ui.css">
+    <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+    <style>
+
+        html {
+            box-sizing: border-box;
+            overflow: -moz-scrollbars-vertical;
+            overflow-y: scroll;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        body {
+            margin: 0;
+            background: #fafafa;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div id="swagger-ui"></div>
+
+    <!-- Workaround for https://github.com/swagger-api/swagger-editor/issues/1371 -->
+    <script>
+        if (window.navigator.userAgent.indexOf("Edge") > -1) {
+            console.log("Removing native Edge fetch in favor of swagger-ui's polyfill")
+            window.fetch = undefined;
+        }
+    </script>
+
+    <script src="./swagger-ui-bundle.js"></script>
+    <script src="./swagger-ui-standalone-preset.js"></script>
+    <script>
+        /* Source: https://gist.github.com/lamberta/3768814
+         * Parse a string function definition and return a function object. Does not use eval.
+         * @param {string} str
+         * @return {function}
+         *
+         * Example:
+         *  var f = function (x, y) { return x * y; };
+         *  var g = parseFunction(f.toString());
+         *  g(33, 3); //=> 99
+         */
+        function parseFunction(str) {
+            if (!str) return void (0);
+
+            var fn_body_idx = str.indexOf('{'),
+                fn_body = str.substring(fn_body_idx + 1, str.lastIndexOf('}')),
+                fn_declare = str.substring(0, fn_body_idx),
+                fn_params = fn_declare.substring(fn_declare.indexOf('(') + 1, fn_declare.lastIndexOf(')')),
+                args = fn_params.split(',');
+
+            args.push(fn_body);
+
+            function Fn() {
+                return Function.apply(this, args);
+            }
+            Fn.prototype = Function.prototype;
+
+            return new Fn();
+        }
+
+        window.onload = function () {
+            var configObject = JSON.parse('{"urls":[{"url":"v1/swagger.json","name":"WebApi v1"}],"deepLinking":false,"persistAuthorization":false,"displayOperationId":false,"defaultModelsExpandDepth":1,"defaultModelExpandDepth":1,"defaultModelRendering":"example","displayRequestDuration":false,"docExpansion":"list","showExtensions":false,"showCommonExtensions":false,"supportedSubmitMethods":["get","put","post","delete","options","head","patch","trace"],"tryItOutEnabled":false}');
+            var oauthConfigObject = JSON.parse('{"scopeSeparator":" ","scopes":[],"useBasicAuthenticationWithAccessCodeGrant":false,"usePkceWithAuthorizationCodeGrant":false}');
+
+            // Workaround for https://github.com/swagger-api/swagger-ui/issues/5945
+            configObject.urls.forEach(function (item) {
+                if (item.url.startsWith("http") || item.url.startsWith("/")) return;
+                item.url = window.location.href.replace("index.html", item.url).split('#')[0];
+            });
+
+            // If validatorUrl is not explicitly provided, disable the feature by setting to null
+            if (!configObject.hasOwnProperty("validatorUrl"))
+                configObject.validatorUrl = null
+
+            // If oauth2RedirectUrl isn't specified, use the built-in default
+            if (!configObject.hasOwnProperty("oauth2RedirectUrl"))
+                configObject.oauth2RedirectUrl = (new URL("oauth2-redirect.html", window.location.href)).href;
+
+            // Apply mandatory parameters
+            configObject.dom_id = "#swagger-ui";
+            configObject.presets = [SwaggerUIBundle.presets.apis, SwaggerUIStandalonePreset];
+            configObject.layout = "StandaloneLayout";
+
+            // Parse and add interceptor functions
+            var interceptors = JSON.parse('{"RequestInterceptorFunction":null,"ResponseInterceptorFunction":null}');
+            if (interceptors.RequestInterceptorFunction)
+                configObject.requestInterceptor = parseFunction(interceptors.RequestInterceptorFunction);
+            if (interceptors.ResponseInterceptorFunction)
+                configObject.responseInterceptor = parseFunction(interceptors.ResponseInterceptorFunction);
+
+            // Begin Swagger UI call region
+
+            const ui = SwaggerUIBundle(configObject);
+
+            ui.initOAuth(oauthConfigObject);
+
+            // End Swagger UI call region
+
+            window.ui = ui
+        }
+    </script>
+</body>
+</html>
+
+
+2024-03-03 19:03:33.475 [DBG] (SkiedarRequestService//) Response markup was updated to include browser refresh script injection.
+2024-03-03 19:03:33.475 [INF] (SkiedarRequestService//) Request starting HTTP/2 GET https://localhost:7295/_vs/browserLink - -
+2024-03-03 19:03:33.519 [INF] (SkiedarRequestService//) Request finished HTTP/2 GET https://localhost:7295/swagger/index.html - - - 200 - text/html;charset=utf-8 1203.6913ms
+2024-03-03 19:03:33.537 [INF] (SkiedarRequestService//) Request starting HTTP/2 GET https://localhost:7295/_framework/aspnetcore-browser-refresh.js - -
+2024-03-03 19:03:33.554 [INF] (SkiedarRequestService//) Request finished HTTP/2 GET https://localhost:7295/_framework/aspnetcore-browser-refresh.js - - - 200 13748 application/javascript;+charset=utf-8 16.3291ms
+2024-03-03 19:03:33.570 [DBG] (SkiedarRequestService//) Authentication of the HTTPS connection timed out.
+2024-03-03 19:03:33.615 [DBG] (SkiedarRequestService//) Authentication of the HTTPS connection timed out.
+2024-03-03 19:03:33.622 [DBG] (SkiedarRequestService//) Connection id ""0HN1RIC96MB40"" stopped.
+2024-03-03 19:03:33.625 [DBG] (SkiedarRequestService//) Connection id ""0HN1RIC96MB3V"" stopped.
+2024-03-03 19:03:33.633 [DBG] (SkiedarRequestService//) Connection id ""0HN1RIC96MB40"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-03-03 19:03:33.637 [DBG] (SkiedarRequestService//) Connection id ""0HN1RIC96MB3V"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-03-03 19:03:33.725 [INF] (SkiedarRequestService//) Request finished HTTP/2 GET https://localhost:7295/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 249.5204ms
+2024-03-03 19:03:33.897 [INF] (SkiedarRequestService//) Request starting HTTP/2 GET https://localhost:7295/swagger/v1/swagger.json - -
+2024-03-03 19:03:34.263 [DBG] (SkiedarRequestService//) No candidates found for the request path '"/swagger/v1/swagger.json"'
+2024-03-03 19:03:34.268 [DBG] (SkiedarRequestService//) Request did not match any endpoints
+2024-03-03 19:03:34.273 [DBG] (SkiedarRequestService//) The request path "" does not match the path filter
+2024-03-03 19:03:34.538 [INF] (SkiedarRequestService//) === Request Info ===
+method = GET
+path = /swagger/v1/swagger.json
+-- headers
+header = Accept    value = application/json,*/*
+header = Host    value = localhost:7295
+header = User-Agent    value = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+header = Accept-Encoding    value = gzip, deflate, br
+header = Accept-Language    value = en-GB,en-US;q=0.9,en;q=0.8
+header = Referer    value = https://localhost:7295/swagger/index.html
+header = sec-ch-ua    value = "Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"
+header = sec-ch-ua-mobile    value = ?0
+header = sec-ch-ua-platform    value = "Windows"
+header = sec-fetch-site    value = same-origin
+header = sec-fetch-mode    value = cors
+header = sec-fetch-dest    value = empty
+-- body
+body = 
+ 
+ === Response Info ===
+-- headers
+header = Content-Type    value = application/json;charset=utf-8
+header = Request-Context    value = appId=
+-- statusCode
+statusCode = 200
+-- body
+body = {
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Demo API",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Course": {
+      "get": {
+        "tags": [
+          "Course"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CourseModel"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CourseModel"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CourseModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Course"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CourseModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CourseModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CourseModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CourseModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CourseModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CourseModel"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Course/{id}": {
+      "get": {
+        "tags": [
+          "Course"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CourseModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CourseModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CourseModel"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Course"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CourseModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CourseModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CourseModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Course"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/CourseStep": {
+      "get": {
+        "tags": [
+          "CourseStep"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CourseStepModel"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CourseStepModel"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CourseStepModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "CourseStep"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CourseStepModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CourseStepModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CourseStepModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/CourseStep/{id}": {
+      "get": {
+        "tags": [
+          "CourseStep"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CourseStepModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CourseStepModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CourseStepModel"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "CourseStep"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CourseStepModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CourseStepModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CourseStepModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "CourseStep"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/CourseStep/fileupload": {
+      "post": {
+        "tags": [
+          "CourseStep"
+        ],
+        "parameters": [
+          {
+            "name": "CourseID",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "StepNo",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "StepTitle",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ContentType",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Description",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "StepContents": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "StepContents": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/CourseStep/removefile": {
+      "delete": {
+        "tags": [
+          "CourseStep"
+        ],
+        "parameters": [
+          {
+            "name": "CourseID",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "StepID",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "ContentType",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "FileName",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/CourseStep/deletestepno": {
+      "delete": {
+        "tags": [
+          "CourseStep"
+        ],
+        "parameters": [
+          {
+            "name": "CourseID",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "StepNo",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/CourseStep/Course/{id}": {
+      "get": {
+        "tags": [
+          "CourseStep"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CourseStepModel"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CourseStepModel"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CourseStepModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/CourseStep/filecontent": {
+      "get": {
+        "tags": [
+          "CourseStep"
+        ],
+        "parameters": [
+          {
+            "name": "CourseID",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "StepNo",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "ContentType",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "FileName",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Group": {
+      "get": {
+        "tags": [
+          "Group"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/GroupModel"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/GroupModel"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/GroupModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Group"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GroupModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GroupModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GroupModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/GroupModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GroupModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GroupModel"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Group/{id}": {
+      "get": {
+        "tags": [
+          "Group"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/GroupModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GroupModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GroupModel"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Group"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GroupModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GroupModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GroupModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Group"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/GroupCourse": {
+      "get": {
+        "tags": [
+          "GroupCourse"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/GroupCourseModel"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/GroupCourseModel"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/GroupCourseModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "GroupCourse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GroupCourseModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GroupCourseModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GroupCourseModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/GroupCourseModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GroupCourseModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GroupCourseModel"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/GroupCourse/{id}": {
+      "get": {
+        "tags": [
+          "GroupCourse"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/GroupCourseModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GroupCourseModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GroupCourseModel"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "GroupCourse"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GroupCourseModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GroupCourseModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GroupCourseModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "GroupCourse"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Login": {
+      "post": {
+        "tags": [
+          "Login"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Login"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Login/refresh-token": {
+      "post": {
+        "tags": [
+          "Login"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TokenModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TokenModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TokenModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Login/revoke/{username}": {
+      "post": {
+        "tags": [
+          "Login"
+        ],
+        "parameters": [
+          {
+            "name": "username",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Login/revoke-all": {
+      "post": {
+        "tags": [
+          "Login"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Question": {
+      "get": {
+        "tags": [
+          "Question"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QuestionModel"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QuestionModel"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QuestionModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Question"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "QuizID": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "QuestionNo": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "QuestionText": {
+                    "type": "string"
+                  },
+                  "ImageName": {
+                    "type": "string"
+                  },
+                  "Option1": {
+                    "type": "string"
+                  },
+                  "Option2": {
+                    "type": "string"
+                  },
+                  "Option3": {
+                    "type": "string"
+                  },
+                  "Option4": {
+                    "type": "string"
+                  },
+                  "CorrectOption": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "ImageFile": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "Id": {
+                  "style": "form"
+                },
+                "QuizID": {
+                  "style": "form"
+                },
+                "QuestionNo": {
+                  "style": "form"
+                },
+                "QuestionText": {
+                  "style": "form"
+                },
+                "ImageName": {
+                  "style": "form"
+                },
+                "Option1": {
+                  "style": "form"
+                },
+                "Option2": {
+                  "style": "form"
+                },
+                "Option3": {
+                  "style": "form"
+                },
+                "Option4": {
+                  "style": "form"
+                },
+                "CorrectOption": {
+                  "style": "form"
+                },
+                "ImageFile": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuestionModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuestionModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuestionModel"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Question/{id}": {
+      "get": {
+        "tags": [
+          "Question"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuestionModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuestionModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuestionModel"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Question"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "QuizID": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "QuestionNo": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "QuestionText": {
+                    "type": "string"
+                  },
+                  "ImageName": {
+                    "type": "string"
+                  },
+                  "Option1": {
+                    "type": "string"
+                  },
+                  "Option2": {
+                    "type": "string"
+                  },
+                  "Option3": {
+                    "type": "string"
+                  },
+                  "Option4": {
+                    "type": "string"
+                  },
+                  "CorrectOption": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "ImageFile": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "Id": {
+                  "style": "form"
+                },
+                "QuizID": {
+                  "style": "form"
+                },
+                "QuestionNo": {
+                  "style": "form"
+                },
+                "QuestionText": {
+                  "style": "form"
+                },
+                "ImageName": {
+                  "style": "form"
+                },
+                "Option1": {
+                  "style": "form"
+                },
+                "Option2": {
+                  "style": "form"
+                },
+                "Option3": {
+                  "style": "form"
+                },
+                "Option4": {
+                  "style": "form"
+                },
+                "CorrectOption": {
+                  "style": "form"
+                },
+                "ImageFile": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Question"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Question/QuizID/{quizid}": {
+      "get": {
+        "tags": [
+          "Question"
+        ],
+        "parameters": [
+          {
+            "name": "quizid",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QuestionModel"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QuestionModel"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QuestionModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Question/Image/{quizId}/{questionNo}/{imageName}": {
+      "get": {
+        "tags": [
+          "Question"
+        ],
+        "parameters": [
+          {
+            "name": "quizId",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "questionNo",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "imageName",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Quiz": {
+      "get": {
+        "tags": [
+          "Quiz"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QuizModel"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QuizModel"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QuizModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Quiz"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuizModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuizModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuizModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuizModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuizModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuizModel"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Quiz/{id}": {
+      "get": {
+        "tags": [
+          "Quiz"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuizModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuizModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuizModel"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Quiz"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuizModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuizModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuizModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Quiz"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Quiz/ByCourse/{courseId}": {
+      "get": {
+        "tags": [
+          "Quiz"
+        ],
+        "parameters": [
+          {
+            "name": "courseId",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuizModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuizModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuizModel"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/User/slgemail": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "recipientEmail",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "username",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "password",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/User": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserModel"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserModel"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/User/{id}": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserModel"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/UserAnswer": {
+      "get": {
+        "tags": [
+          "UserAnswer"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserAnswerModel"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserAnswerModel"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserAnswerModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "UserAnswer"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserAnswerModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserAnswerModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserAnswerModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserAnswerModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserAnswerModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserAnswerModel"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/UserAnswer/{id}": {
+      "get": {
+        "tags": [
+          "UserAnswer"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserAnswerModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserAnswerModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserAnswerModel"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "UserAnswer"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserAnswerModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserAnswerModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserAnswerModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "UserAnswer"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/UserAnswer/userQuizID/{userQuizID}": {
+      "get": {
+        "tags": [
+          "UserAnswer"
+        ],
+        "parameters": [
+          {
+            "name": "userQuizID",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserAnswerModel"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserAnswerModel"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserAnswerModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/UserCourseStep": {
+      "get": {
+        "tags": [
+          "UserCourseStep"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserCourseStepModel"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserCourseStepModel"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserCourseStepModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "UserCourseStep"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserCourseStepModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserCourseStepModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserCourseStepModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserCourseStepModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserCourseStepModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserCourseStepModel"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/UserCourseStep/{id}": {
+      "get": {
+        "tags": [
+          "UserCourseStep"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserCourseStepModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserCourseStepModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserCourseStepModel"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "UserCourseStep"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserCourseStepModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserCourseStepModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserCourseStepModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "UserCourseStep"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/UserCourseStep/ByCourseAndUser/{courseId}/{userId}": {
+      "get": {
+        "tags": [
+          "UserCourseStep"
+        ],
+        "parameters": [
+          {
+            "name": "courseId",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserCourseStepModel"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserCourseStepModel"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserCourseStepModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/UserCourseStep/UpdateStatus": {
+      "put": {
+        "tags": [
+          "UserCourseStep"
+        ],
+        "parameters": [
+          {
+            "name": "courseId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "userId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "stepNumber",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/UserCourseStep/IsCourseCompleted": {
+      "get": {
+        "tags": [
+          "UserCourseStep"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "courseId",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/UserGroup": {
+      "get": {
+        "tags": [
+          "UserGroup"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserGroupModel"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserGroupModel"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserGroupModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "UserGroup"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserGroupModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserGroupModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserGroupModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserGroupModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserGroupModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserGroupModel"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/UserGroup/{id}": {
+      "get": {
+        "tags": [
+          "UserGroup"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserGroupModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserGroupModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserGroupModel"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "UserGroup"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserGroupModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserGroupModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserGroupModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserGroupModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserGroupModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserGroupModel"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "UserGroup"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/UserGroup/user/{userId}": {
+      "get": {
+        "tags": [
+          "UserGroup"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserGroupModel"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserGroupModel"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserGroupModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/UserQuiz": {
+      "get": {
+        "tags": [
+          "UserQuiz"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserQuizModel"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserQuizModel"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserQuizModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "UserQuiz"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserQuizModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserQuizModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserQuizModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserQuizModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserQuizModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserQuizModel"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/UserQuiz/{id}": {
+      "get": {
+        "tags": [
+          "UserQuiz"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserQuizModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserQuizModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserQuizModel"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "UserQuiz"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserQuizModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserQuizModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserQuizModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "UserQuiz"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CourseModel": {
+        "type": "object",
+        "properties": {
+          "courseID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "courseName": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "groupName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CourseStepModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "courseID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "stepNo": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "stepTitle": {
+            "type": "string",
+            "nullable": true
+          },
+          "stepContent": {
+            "type": "string",
+            "nullable": true
+          },
+          "contentType": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GroupCourseModel": {
+        "type": "object",
+        "properties": {
+          "groupCourseID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "courseID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "groupID": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GroupModel": {
+        "required": [
+          "groupName"
+        ],
+        "type": "object",
+        "properties": {
+          "groupID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "groupName": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginModel": {
+        "required": [
+          "password",
+          "username"
+        ],
+        "type": "object",
+        "properties": {
+          "username": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "password": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "QuestionModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quizID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "questionNo": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "questionText": {
+            "type": "string",
+            "nullable": true
+          },
+          "imageName": {
+            "type": "string",
+            "nullable": true
+          },
+          "option1": {
+            "type": "string",
+            "nullable": true
+          },
+          "option2": {
+            "type": "string",
+            "nullable": true
+          },
+          "option3": {
+            "type": "string",
+            "nullable": true
+          },
+          "option4": {
+            "type": "string",
+            "nullable": true
+          },
+          "correctOption": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "QuizModel": {
+        "type": "object",
+        "properties": {
+          "quizID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "courseID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TokenModel": {
+        "type": "object",
+        "properties": {
+          "accessToken": {
+            "type": "string",
+            "nullable": true
+          },
+          "refreshToken": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserAnswerModel": {
+        "type": "object",
+        "properties": {
+          "userAnswerID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userQuizID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "questionID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "selectedOption": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "correctOption": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "isCorrect": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserCourseStepModel": {
+        "type": "object",
+        "properties": {
+          "courseStepID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "courseID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "stepNumber": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserGroupModel": {
+        "type": "object",
+        "properties": {
+          "userGroupID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "groupID": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserModel": {
+        "type": "object",
+        "properties": {
+          "userID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "userEmail": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "role": {
+            "type": "string",
+            "nullable": true
+          },
+          "storeID": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserQuizModel": {
+        "type": "object",
+        "properties": {
+          "userQuizID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quizID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "startTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "endTime": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "score": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Please enter a valid token",
+        "scheme": "Bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}
+
+2024-03-03 19:03:34.545 [INF] (SkiedarRequestService//) Request finished HTTP/2 GET https://localhost:7295/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 647.1849ms
+2024-03-03 19:03:37.752 [DBG] (SkiedarRequestService//) Connection id ""0HN1RIC96MB41"" received FIN.
+2024-03-03 19:03:37.761 [DBG] (SkiedarRequestService//) The connection queue processing loop for "0HN1RIC96MB41" completed.
+2024-03-03 19:03:37.767 [DBG] (SkiedarRequestService//) Connection id ""0HN1RIC96MB41"" is closed. The last processed stream ID was 7.
+2024-03-03 19:03:37.771 [DBG] (SkiedarRequestService//) Connection id ""0HN1RIC96MB41"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-03-03 19:03:37.782 [DBG] (SkiedarRequestService//) Connection id ""0HN1RIC96MB41"" stopped.
+2024-03-03 19:03:55.493 [DBG] (SkiedarRequestService//) Connection id ""0HN1RIC96MB42"" accepted.
+2024-03-03 19:03:55.497 [DBG] (SkiedarRequestService//) Connection id ""0HN1RIC96MB42"" started.
+2024-03-03 19:03:55.505 [DBG] (SkiedarRequestService//) Connection "0HN1RIC96MB42" established using the following protocol: Tls13
+2024-03-03 19:03:55.517 [INF] (SkiedarRequestService//) Request starting HTTP/2 POST https://localhost:7295/api/Login application/json 61
+2024-03-03 19:03:55.533 [DBG] (SkiedarRequestService//) 1 candidate(s) found for the request path '"/api/Login"'
+2024-03-03 19:03:55.544 [DBG] (SkiedarRequestService//) Endpoint '"WebApi.Controllers.LoginController.Login (WebApi)"' with route pattern '"api/Login"' is valid for the request path '"/api/Login"'
+2024-03-03 19:03:55.549 [DBG] (SkiedarRequestService//) Request matched endpoint '"WebApi.Controllers.LoginController.Login (WebApi)"'
+2024-03-03 19:03:55.556 [DBG] (SkiedarRequestService//) Connection id ""0HN1RIC96MB42"", Request id ""0HN1RIC96MB42:00000001"": started reading request body.
+2024-03-03 19:03:55.562 [DBG] (SkiedarRequestService//) Connection id ""0HN1RIC96MB42"", Request id ""0HN1RIC96MB42:00000001"": done reading request body.
+2024-03-03 19:03:55.571 [DBG] (SkiedarRequestService//) The request has an origin header: '"https://localhost:7295"'.
+2024-03-03 19:03:55.578 [INF] (SkiedarRequestService//) CORS policy execution failed.
+2024-03-03 19:03:55.582 [INF] (SkiedarRequestService//) Request origin "https://localhost:7295" does not have permission to access the resource.
+2024-03-03 19:03:55.588 [DBG] (SkiedarRequestService//) Static files was skipped as the request already matched an endpoint.
+2024-03-03 19:03:55.596 [DBG] (SkiedarRequestService//) Static files was skipped as the request already matched an endpoint.
+2024-03-03 19:03:55.731 [DBG] (SkiedarRequestService//) AuthenticationScheme: "Bearer" was not authenticated.
+2024-03-03 19:03:55.741 [INF] (SkiedarRequestService//) Executing endpoint '"WebApi.Controllers.LoginController.Login (WebApi)"'
+2024-03-03 19:03:55.805 [INF] (SkiedarRequestService//) Route matched with "{action = \"Login\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(WebApi.Model.LoginModel)" on controller "WebApi.Controllers.LoginController" ("WebApi").
+2024-03-03 19:03:55.815 [DBG] (SkiedarRequestService//) Execution plan of "authorization" filters (in the following order): ["None"]
+2024-03-03 19:03:55.820 [DBG] (SkiedarRequestService//) Execution plan of "resource" filters (in the following order): ["None"]
+2024-03-03 19:03:55.826 [DBG] (SkiedarRequestService//) Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-03-03 19:03:55.832 [DBG] (SkiedarRequestService//) Execution plan of "exception" filters (in the following order): ["None"]
+2024-03-03 19:03:55.836 [DBG] (SkiedarRequestService//) Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-03-03 19:03:55.845 [DBG] (SkiedarRequestService//) Executing controller factory for controller "WebApi.Controllers.LoginController" ("WebApi")
+2024-03-03 19:03:56.172 [DBG] (SkiedarRequestService//) An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-03-03 19:03:56.279 [DBG] (SkiedarRequestService//) Executed controller factory for controller "WebApi.Controllers.LoginController" ("WebApi")
+2024-03-03 19:03:56.295 [DBG] (SkiedarRequestService//) Attempting to bind parameter '"model"' of type '"WebApi.Model.LoginModel"' ...
+2024-03-03 19:03:56.305 [DBG] (SkiedarRequestService//) Attempting to bind parameter '"model"' of type '"WebApi.Model.LoginModel"' using the name '""' in request data ...
+2024-03-03 19:03:56.313 [DBG] (SkiedarRequestService//) Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter"' for content type '"application/json"'.
+2024-03-03 19:03:56.336 [DBG] (SkiedarRequestService//) JSON input formatter succeeded, deserializing to type '"WebApi.Model.LoginModel"'
+2024-03-03 19:03:56.344 [DBG] (SkiedarRequestService//) Done attempting to bind parameter '"model"' of type '"WebApi.Model.LoginModel"'.
+2024-03-03 19:03:56.348 [DBG] (SkiedarRequestService//) Done attempting to bind parameter '"model"' of type '"WebApi.Model.LoginModel"'.
+2024-03-03 19:03:56.352 [DBG] (SkiedarRequestService//) Attempting to validate the bound parameter '"model"' of type '"WebApi.Model.LoginModel"' ...
+2024-03-03 19:03:56.379 [DBG] (SkiedarRequestService//) Done attempting to validate the bound parameter '"model"' of type '"WebApi.Model.LoginModel"'.
+2024-03-03 19:03:56.395 [INF] (SkiedarRequestService//) Executing action method "WebApi.Controllers.LoginController.Login (WebApi)" - Validation state: Valid
+2024-03-03 19:03:57.125 [DBG] (SkiedarRequestService//) The index "{'UserId'}" was not created on entity type '"IdentityUserRole<string>"' as the properties are already covered by the index "{'UserId', 'RoleId'}".
+2024-03-03 19:03:57.129 [DBG] (SkiedarRequestService//) The index "{'UserId'}" was not created on entity type '"IdentityUserToken<string>"' as the properties are already covered by the index "{'UserId', 'LoginProvider', 'Name'}".
+2024-03-03 19:03:57.633 [DBG] (SkiedarRequestService//) Entity Framework Core "7.0.11" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"7.0.11"' with options: "None"
+2024-03-03 19:03:57.784 [DBG] (SkiedarRequestService//) Compiling query expression: "
+"'"DbSet<UserModel>()
+    .Where(u => u.Username == __model_Username_0 && u.Password == __model_Password_1)
+    .FirstOrDefault()"'
+2024-03-03 19:03:58.104 [DBG] (SkiedarRequestService//) Generated query execution expression: "
+"'"queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<UserModel>(
+    asyncEnumerable: new SingleQueryingEnumerable<UserModel>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: UserModel.UserID (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: UserModel.Password (string) Required, 1], [Property: UserModel.Role (string) Required, 2], [Property: UserModel.StoreID (int) Required, 3], [Property: UserModel.UserEmail (string) Required, 4], [Property: UserModel.Username (string) Required, 5] }
+            SELECT TOP(1) u.UserID, u.Password, u.Role, u.StoreID, u.UserEmail, u.Username
+            FROM Users AS u
+            WHERE (u.Username == @__model_Username_0) && (u.Password == @__model_Password_1)), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, UserModel>, 
+        WebApi.DAL.AppDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)"'
+2024-03-03 19:03:58.176 [DBG] (SkiedarRequestService//) Creating DbCommand for '"ExecuteReader"'.
+2024-03-03 19:03:58.183 [DBG] (SkiedarRequestService//) Creating DbConnection.
+2024-03-03 19:03:58.234 [DBG] (SkiedarRequestService//) Created DbConnection. (46ms).
+2024-03-03 19:03:58.251 [DBG] (SkiedarRequestService//) Created DbCommand for '"ExecuteReader"' (78ms).
+2024-03-03 19:03:58.275 [DBG] (SkiedarRequestService//) Initialized DbCommand for '"ExecuteReader"' (103ms).
+2024-03-03 19:03:58.290 [DBG] (SkiedarRequestService//) Opening connection to database '"CourseDB"' on server '"SDH-AQEMOHAM"'.
+2024-03-03 19:03:59.032 [DBG] (SkiedarRequestService//) Opened connection to database '"CourseDB"' on server '"SDH-AQEMOHAM"'.
+2024-03-03 19:03:59.057 [DBG] (SkiedarRequestService//) Executing DbCommand [Parameters=["@__model_Username_0='?' (Size = 4000), @__model_Password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[UserID], [u].[Password], [u].[Role], [u].[StoreID], [u].[UserEmail], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__model_Username_0 AND [u].[Password] = @__model_Password_1"
+2024-03-03 19:03:59.259 [INF] (SkiedarRequestService//) Executed DbCommand ("205"ms) [Parameters=["@__model_Username_0='?' (Size = 4000), @__model_Password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[UserID], [u].[Password], [u].[Role], [u].[StoreID], [u].[UserEmail], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__model_Username_0 AND [u].[Password] = @__model_Password_1"
+2024-03-03 19:03:59.336 [DBG] (SkiedarRequestService//) Context '"AppDbContext"' started tracking '"UserModel"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-03-03 19:03:59.383 [DBG] (SkiedarRequestService//) Closing data reader to '"CourseDB"' on server '"SDH-AQEMOHAM"'.
+2024-03-03 19:03:59.407 [DBG] (SkiedarRequestService//) A data reader for '"CourseDB"' on server '"SDH-AQEMOHAM"' is being disposed after spending 130ms reading results.
+2024-03-03 19:03:59.421 [DBG] (SkiedarRequestService//) Closing connection to database '"CourseDB"' on server '"SDH-AQEMOHAM"'.
+2024-03-03 19:03:59.439 [DBG] (SkiedarRequestService//) Closed connection to database '"CourseDB"' on server '"SDH-AQEMOHAM"' (17ms).
+2024-03-03 19:03:59.716 [DBG] (SkiedarRequestService//) User validation failed: "InvalidUserName".
+2024-03-03 19:03:59.733 [INF] (SkiedarRequestService//) Executed action method "WebApi.Controllers.LoginController.Login (WebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 3323.3059ms.
+2024-03-03 19:03:59.747 [DBG] (SkiedarRequestService//) List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-03-03 19:03:59.754 [DBG] (SkiedarRequestService//) No information found on request to perform content negotiation.
+2024-03-03 19:03:59.759 [DBG] (SkiedarRequestService//) Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-03 19:03:59.764 [DBG] (SkiedarRequestService//) Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-03 19:03:59.770 [DBG] (SkiedarRequestService//) Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2024-03-03 19:03:59.776 [INF] (SkiedarRequestService//) Executing "OkObjectResult", writing value of type '"<>f__AnonymousType2`5[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2024-03-03 19:03:59.802 [INF] (SkiedarRequestService//) Executed action "WebApi.Controllers.LoginController.Login (WebApi)" in 3954.462ms
+2024-03-03 19:03:59.809 [INF] (SkiedarRequestService//) Executed endpoint '"WebApi.Controllers.LoginController.Login (WebApi)"'
+2024-03-03 19:03:59.816 [INF] (SkiedarRequestService//) === Request Info ===
+method = POST
+path = /api/Login
+-- headers
+header = Accept    value = */*
+header = Host    value = localhost:7295
+header = User-Agent    value = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+header = Accept-Encoding    value = gzip, deflate, br
+header = Accept-Language    value = en-GB,en-US;q=0.9,en;q=0.8
+header = Content-Type    value = application/json
+header = Origin    value = https://localhost:7295
+header = Referer    value = https://localhost:7295/swagger/index.html
+header = Content-Length    value = 61
+header = sec-ch-ua    value = "Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"
+header = sec-ch-ua-mobile    value = ?0
+header = sec-ch-ua-platform    value = "Windows"
+header = sec-fetch-site    value = same-origin
+header = sec-fetch-mode    value = cors
+header = sec-fetch-dest    value = empty
+-- body
+body = {
+  "username": "Aqeel Mohammed",
+  "password": "Aqeel@123"
+}
+ 
+ === Response Info ===
+-- headers
+header = Content-Type    value = application/json; charset=utf-8
+header = Request-Context    value = appId=
+-- statusCode
+statusCode = 200
+-- body
+body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQXFlZWwgTW9oYW1tZWQiLCJqdGkiOiIwZmQ2MWExOS0wNDBmLTQ4NzUtODFhZS1jOTE0YzExNDU2YjIiLCJpYXQiOiIwMy8wMy8yMDI0IDM6MDM6NTkgUE0iLCJVc2VyTmFtZSI6IlNjYW5kYW5hdmlhbiIsIkRpc3BsYXlOYW1lIjoiU2tlaWRhciBMaXZpbmcgR3JvdXAiLCJleHAiOjE3MDk0ODkwMzksImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcyOTUvIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDozMDAwLyJ9.gjNcpkvqEMFc9U7AfXEwXlYHEY84RLwl5ZxBRO3kUNA","refreshToken":"NbJt4HD5M731CWWA2MAlSMLMgerdHt4RpGeqevbbJgvTLhCEeXH++9pX45Vb9agPaYvqfzVIwf9DXder2M98hg==","role":"User","userName":"Aqeel Mohammed","userID":2}
+
+2024-03-03 19:03:59.824 [DBG] (SkiedarRequestService//) '"AppDbContext"' disposed.
+2024-03-03 19:03:59.834 [DBG] (SkiedarRequestService//) Disposing connection to database '"CourseDB"' on server '"SDH-AQEMOHAM"'.
+2024-03-03 19:03:59.839 [DBG] (SkiedarRequestService//) Disposed connection to database '""' on server '""' (4ms).
+2024-03-03 19:03:59.845 [INF] (SkiedarRequestService//) Request finished HTTP/2 POST https://localhost:7295/api/Login application/json 61 - 200 - application/json;+charset=utf-8 4328.2864ms
+2024-03-03 19:04:17.040 [INF] (SkiedarRequestService//) Request starting HTTP/2 GET https://localhost:7295/api/Course - -
+2024-03-03 19:04:17.047 [DBG] (SkiedarRequestService//) 1 candidate(s) found for the request path '"/api/Course"'
+2024-03-03 19:04:17.069 [DBG] (SkiedarRequestService//) Endpoint '"WebApi.Controllers.CourseController.GetCourses (WebApi)"' with route pattern '"api/Course"' is valid for the request path '"/api/Course"'
+2024-03-03 19:04:17.073 [DBG] (SkiedarRequestService//) Request matched endpoint '"WebApi.Controllers.CourseController.GetCourses (WebApi)"'
+2024-03-03 19:04:17.076 [DBG] (SkiedarRequestService//) Static files was skipped as the request already matched an endpoint.
+2024-03-03 19:04:17.081 [DBG] (SkiedarRequestService//) Static files was skipped as the request already matched an endpoint.
+2024-03-03 19:04:17.187 [DBG] (SkiedarRequestService//) Successfully validated the token.
+2024-03-03 19:04:17.197 [DBG] (SkiedarRequestService//) AuthenticationScheme: "Bearer" was successfully authenticated.
+2024-03-03 19:04:17.214 [DBG] (SkiedarRequestService//) Authorization was successful.
+2024-03-03 19:04:17.220 [INF] (SkiedarRequestService//) Executing endpoint '"WebApi.Controllers.CourseController.GetCourses (WebApi)"'
+2024-03-03 19:04:17.231 [INF] (SkiedarRequestService//) Route matched with "{action = \"GetCourses\", controller = \"Course\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApi.Model.CourseModel]]] GetCourses()" on controller "WebApi.Controllers.CourseController" ("WebApi").
+2024-03-03 19:04:17.237 [DBG] (SkiedarRequestService//) Execution plan of "authorization" filters (in the following order): ["None"]
+2024-03-03 19:04:17.241 [DBG] (SkiedarRequestService//) Execution plan of "resource" filters (in the following order): ["None"]
+2024-03-03 19:04:17.245 [DBG] (SkiedarRequestService//) Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-03-03 19:04:17.249 [DBG] (SkiedarRequestService//) Execution plan of "exception" filters (in the following order): ["None"]
+2024-03-03 19:04:17.254 [DBG] (SkiedarRequestService//) Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-03-03 19:04:17.258 [DBG] (SkiedarRequestService//) Executing controller factory for controller "WebApi.Controllers.CourseController" ("WebApi")
+2024-03-03 19:04:17.264 [DBG] (SkiedarRequestService//) Executed controller factory for controller "WebApi.Controllers.CourseController" ("WebApi")
+2024-03-03 19:04:17.269 [INF] (SkiedarRequestService//) Executing action method "WebApi.Controllers.CourseController.GetCourses (WebApi)" - Validation state: Valid
+2024-03-03 19:04:17.300 [DBG] (SkiedarRequestService//) Entity Framework Core "7.0.11" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"7.0.11"' with options: "None"
+2024-03-03 19:04:17.308 [DBG] (SkiedarRequestService//) Compiling query expression: "
+"'"DbSet<CourseModel>()"'
+2024-03-03 19:04:17.321 [DBG] (SkiedarRequestService//) Generated query execution expression: "
+"'"queryContext => new SingleQueryingEnumerable<CourseModel>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: CourseModel.CourseID (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: CourseModel.CourseName (string) Required, 1], [Property: CourseModel.Description (string) Required, 2], [Property: CourseModel.GroupName (string) Required, 3] }
+        SELECT c.CourseID, c.CourseName, c.Description, c.GroupName
+        FROM Courses AS c), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, CourseModel>, 
+    WebApi.DAL.AppDbContext, 
+    False, 
+    False, 
+    True
+)"'
+2024-03-03 19:04:17.327 [DBG] (SkiedarRequestService//) Creating DbCommand for '"ExecuteReader"'.
+2024-03-03 19:04:17.332 [DBG] (SkiedarRequestService//) Creating DbConnection.
+2024-03-03 19:04:17.337 [DBG] (SkiedarRequestService//) Created DbConnection. (5ms).
+2024-03-03 19:04:17.343 [DBG] (SkiedarRequestService//) Created DbCommand for '"ExecuteReader"' (15ms).
+2024-03-03 19:04:17.346 [DBG] (SkiedarRequestService//) Initialized DbCommand for '"ExecuteReader"' (18ms).
+2024-03-03 19:04:17.351 [DBG] (SkiedarRequestService//) Opening connection to database '"CourseDB"' on server '"SDH-AQEMOHAM"'.
+2024-03-03 19:04:17.358 [DBG] (SkiedarRequestService//) Opened connection to database '"CourseDB"' on server '"SDH-AQEMOHAM"'.
+2024-03-03 19:04:17.362 [DBG] (SkiedarRequestService//) Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CourseID], [c].[CourseName], [c].[Description], [c].[GroupName]
+FROM [Courses] AS [c]"
+2024-03-03 19:04:17.386 [INF] (SkiedarRequestService//) Executed DbCommand ("24"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[CourseID], [c].[CourseName], [c].[Description], [c].[GroupName]
+FROM [Courses] AS [c]"
+2024-03-03 19:04:17.399 [DBG] (SkiedarRequestService//) Context '"AppDbContext"' started tracking '"CourseModel"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-03-03 19:04:17.420 [DBG] (SkiedarRequestService//) Context '"AppDbContext"' started tracking '"CourseModel"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-03-03 19:04:17.426 [DBG] (SkiedarRequestService//) Context '"AppDbContext"' started tracking '"CourseModel"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-03-03 19:04:17.431 [DBG] (SkiedarRequestService//) Closing data reader to '"CourseDB"' on server '"SDH-AQEMOHAM"'.
+2024-03-03 19:04:17.436 [DBG] (SkiedarRequestService//) A data reader for '"CourseDB"' on server '"SDH-AQEMOHAM"' is being disposed after spending 44ms reading results.
+2024-03-03 19:04:17.441 [DBG] (SkiedarRequestService//) Closing connection to database '"CourseDB"' on server '"SDH-AQEMOHAM"'.
+2024-03-03 19:04:17.445 [DBG] (SkiedarRequestService//) Closed connection to database '"CourseDB"' on server '"SDH-AQEMOHAM"' (3ms).
+2024-03-03 19:04:17.451 [INF] (SkiedarRequestService//) Executed action method "WebApi.Controllers.CourseController.GetCourses (WebApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 176.6919ms.
+2024-03-03 19:04:17.457 [DBG] (SkiedarRequestService//) List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-03-03 19:04:17.467 [DBG] (SkiedarRequestService//) Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-03-03 19:04:17.473 [DBG] (SkiedarRequestService//) Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-03-03 19:04:17.478 [DBG] (SkiedarRequestService//) Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-03 19:04:17.483 [DBG] (SkiedarRequestService//) Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-03 19:04:17.489 [DBG] (SkiedarRequestService//) Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2024-03-03 19:04:17.494 [INF] (SkiedarRequestService//) Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[WebApi.Model.CourseModel, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2024-03-03 19:04:17.504 [INF] (SkiedarRequestService//) Executed action "WebApi.Controllers.CourseController.GetCourses (WebApi)" in 245.3203ms
+2024-03-03 19:04:17.509 [INF] (SkiedarRequestService//) Executed endpoint '"WebApi.Controllers.CourseController.GetCourses (WebApi)"'
+2024-03-03 19:04:17.514 [INF] (SkiedarRequestService//) === Request Info ===
+method = GET
+path = /api/Course
+-- headers
+header = Accept    value = text/plain
+header = Host    value = localhost:7295
+header = User-Agent    value = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+header = Accept-Encoding    value = gzip, deflate, br
+header = Accept-Language    value = en-GB,en-US;q=0.9,en;q=0.8
+header = Authorization    value = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQXFlZWwgTW9oYW1tZWQiLCJqdGkiOiIwZmQ2MWExOS0wNDBmLTQ4NzUtODFhZS1jOTE0YzExNDU2YjIiLCJpYXQiOiIwMy8wMy8yMDI0IDM6MDM6NTkgUE0iLCJVc2VyTmFtZSI6IlNjYW5kYW5hdmlhbiIsIkRpc3BsYXlOYW1lIjoiU2tlaWRhciBMaXZpbmcgR3JvdXAiLCJleHAiOjE3MDk0ODkwMzksImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcyOTUvIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDozMDAwLyJ9.gjNcpkvqEMFc9U7AfXEwXlYHEY84RLwl5ZxBRO3kUNA
+header = Referer    value = https://localhost:7295/swagger/index.html
+header = sec-ch-ua    value = "Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"
+header = sec-ch-ua-mobile    value = ?0
+header = sec-ch-ua-platform    value = "Windows"
+header = sec-fetch-site    value = same-origin
+header = sec-fetch-mode    value = cors
+header = sec-fetch-dest    value = empty
+-- body
+body = 
+ 
+ === Response Info ===
+-- headers
+header = Content-Type    value = application/json; charset=utf-8
+header = Request-Context    value = appId=
+-- statusCode
+statusCode = 200
+-- body
+body = [{"courseID":1,"courseName":"Course1","description":"Course1 Description","groupName":"Group1"},{"courseID":2,"courseName":"Course2","description":"Course2 Description","groupName":"Group2"},{"courseID":3,"courseName":"Course3","description":"Course3 Description3","groupName":"Group3"}]
+
+2024-03-03 19:04:17.518 [DBG] (SkiedarRequestService//) '"AppDbContext"' disposed.
+2024-03-03 19:04:17.522 [DBG] (SkiedarRequestService//) Disposing connection to database '"CourseDB"' on server '"SDH-AQEMOHAM"'.
+2024-03-03 19:04:17.527 [DBG] (SkiedarRequestService//) Disposed connection to database '""' on server '""' (5ms).
+2024-03-03 19:04:17.530 [INF] (SkiedarRequestService//) Request finished HTTP/2 GET https://localhost:7295/api/Course - - - 200 - application/json;+charset=utf-8 490.0412ms
+2024-03-03 19:06:00.563 [DBG] (SkiedarRequestService//) Connection id ""0HN1RIC96MB42"" received FIN.
+2024-03-03 19:06:00.593 [DBG] (SkiedarRequestService//) Connection id ""0HN1RIC96MB42"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2024-03-03 19:06:00.593 [DBG] (SkiedarRequestService//) Connection id ""0HN1RIC96MB42"" is closed. The last processed stream ID was 3.
+2024-03-03 19:06:00.609 [DBG] (SkiedarRequestService//) The connection queue processing loop for "0HN1RIC96MB42" completed.
+2024-03-03 19:06:00.620 [DBG] (SkiedarRequestService//) Connection id ""0HN1RIC96MB42"" stopped.
